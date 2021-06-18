@@ -1,0 +1,87 @@
+@font-face {
+	font-family: 'themify';
+	src:url('themify-icons/ie7fonts/themify.eot?-fvbane');
+	src:url('themify-icons/ie7fonts/themify.eot?#iefix-fvbane') format('embedded-opentype'),
+		url('themify-icons/ie7fonts/themify.woff?-fvbane') format('woff'),
+		url('themify-icons/ie7fonts/themify.ttf?-fvbane') format('truetype'),
+		url('themify-icons/ie7fonts/themify.svg?-fvbane#themify') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="ti-"], [class*=" ti-"] {
+	font-family: 'themify';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+/* div {
+
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5f5f5f;
+    font-family: Work Sans,sans-serif;
+    line-height: 1.65;
+    letter-spacing: .004em;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    box-sizing: inherit;
+}
+a {
+        -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-weight: 400;
+    font-family: Work Sans,sans-serif;
+    letter-spacing: .004em;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    background-color: transparent;
+    touch-action: manipulation;
+    color: rgb(0, 0, 0)!important;
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2rem;
+    bottom: 65px;
+    left: 50%;
+    margin-left: -25px;
+    width: 50px;
+    height: 50px;
+    line-height: 54px;
+    border-radius: 50%;
+    border: 1px solid;
+    opacity: .6;
+    transition: opacity .5s;
+}
+span {
+        -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    letter-spacing: .004em;
+    color: rgb(0, 0, 0)!important;
+    text-align: center;
+    font-size: 2rem;
+    box-sizing: inherit;
+    display: inline-block;
+    font-family: Pe-icon-7-stroke;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+} */
+
+
+.ti-user:before {
+	content: "\e602";
+}
