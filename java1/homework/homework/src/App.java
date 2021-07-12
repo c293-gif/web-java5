@@ -4,8 +4,9 @@ public class App {
         String address = "Thanh Hóa";
         Agemul age = new Agemul();
 
+
         System.out.println("Tôi tên là " + name);
         System.out.println("Địa chỉ " + address);
         System.out.println(age.mul() + " tuổi");
     }
-}
+} 

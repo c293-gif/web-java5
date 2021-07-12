@@ -1,0 +1,7 @@
+{
+    "java.debug.settings.console": "internalConsole",
+    "java.project.sourcePaths": [
+        "java5/onlab/src",
+        "java3/homework/src"
+    ]
+}
