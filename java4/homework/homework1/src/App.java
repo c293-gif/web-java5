@@ -29,23 +29,16 @@ public class App {
 
         System.out.println("nhập chuỗi bất kỳ:");
         String s1 = scanner.nextLine();
+        int count1 = 0;
         for (int i = 0; i < arr.length; i++) {
             if (s1.equalsIgnoreCase(arr[i])) {
                 System.out.printf("chuỗi ở vị trí : " + i);
+                count1++;
 
-            } //else {
-            //     System.out.printf("không có trong chuỗi");
-
-            // } // chỗ này e không làm được ạ, có cách nào để không cần phải tạo 2 vòng lặp k ạ
-        }
-        for (int i = 0; i < arr.length; i++) {
-            if (s1.equalsIgnoreCase(arr[i])) {
-                System.out.println();
-
-            } else {
-                System.out.println("chuỗi vừa nhập không có trong mảng");
-                break;
             }
+        }
+        if (count1 == 0) {
+            System.out.println("chuỗi vừa nhập không có trong mảng");
         }
     }
 }
