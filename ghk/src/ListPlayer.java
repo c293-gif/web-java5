@@ -85,7 +85,6 @@ public class ListPlayer {
             }
         }
 
-        selectedTeam.forEach(System.out::println);
 
        for (Player player : allPlayers) {
            System.out.println(player);
