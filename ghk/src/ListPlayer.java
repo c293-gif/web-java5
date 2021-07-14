@@ -40,56 +40,8 @@ public class ListPlayer {
 
     
 
-     public void buildTeam(){
-        selectedTeam = new ArrayList<Player>();
-        Random general = new Random();
-        int gateKeeperSize = 0;
-        int defenderSize = 0;
-        int midFieldSize = 0;
-        int forwaderSize = 0;
-        System.out.println("List player: ");
-        while (gateKeeperSize < 1) {
-            int rdGateKeeper = general.nextInt(22);
-            if (allPlayers.get(rdGateKeeper).getPosition().equals(Position.GK)) {
-                selectedTeam.add(allPlayers.get(rdGateKeeper));
-                gateKeeperSize++;
-            }
-        }
 
-        while (defenderSize < 4) {
-            int rdDefender = general.nextInt(22);
-            if (allPlayers.get(rdDefender).getPosition().equals(Position.DF)
-                    && !selectedTeam.contains(allPlayers.get(rdDefender))) {
-                selectedTeam.add(allPlayers.get(rdDefender));
-                defenderSize++;
-            }
-
-        }
-
-        while (midFieldSize < 4) {
-            int rdMidField = general.nextInt(22);
-            if (allPlayers.get(rdMidField).getPosition().equals(Position.MF)
-                    && !selectedTeam.contains(allPlayers.get(rdMidField))) {
-                selectedTeam.add(allPlayers.get(rdMidField));
-                midFieldSize++;
-            }
-        }
-
-        while (forwaderSize < 2) {
-            int rdForwader = general.nextInt(22);
-            if (allPlayers.get(rdForwader).getPosition().equals(Position.FW)
-                    && !selectedTeam.contains(allPlayers.get(rdForwader))) {
-                selectedTeam.add(allPlayers.get(rdForwader));
-                forwaderSize++;
-            }
-        }
-
-        selectedTeam.forEach(System.out::println);
-
-        return null;
-    }
-
-    public List<Player> buildTeam(int defender, int midfielder, int forwarder ){
+    public void buildTeam(int defender, int midfielder, int forwarder ){
         selectedTeam = new ArrayList<Player>();
         Random general = new Random();
         int gateKeeperSize = 0;
@@ -135,7 +87,9 @@ public class ListPlayer {
 
         selectedTeam.forEach(System.out::println);
 
-        return null;
+       for (Player player : allPlayers) {
+           System.out.println(player);
+       }
     }
     
 
