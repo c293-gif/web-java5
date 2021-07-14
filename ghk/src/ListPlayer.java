@@ -40,7 +40,7 @@ public class ListPlayer {
 
     
 
-     public List<Player> buildTeam(){
+     public void buildTeam(){
         selectedTeam = new ArrayList<Player>();
         Random general = new Random();
         int gateKeeperSize = 0;
