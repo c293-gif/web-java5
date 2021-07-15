@@ -13,7 +13,7 @@ public class App {
         students.add(new Student("Nguyễn Tuấn Sơn", 20,"Thái Bình"));
         students.add(new Student("Trịnh Công Mạnh", 25,"Điện Biên"));
         students.add(new Student("Lê Vũ Anh", 23,"Hải Phòng"));
-        students.add(new Student("Tr", 21,"Thanh Hóa"));
+        students.add(new Student("Trịnh Anh Cương", 21,"Thanh Hóa"));
         students.add(new Student("Mai Văn Phán", 24, "Hải Dương"));
         
 
