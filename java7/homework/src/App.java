@@ -36,5 +36,6 @@ public class App {
         for (KiemChungVien kiemChungVien : listKCV) {
             kiemChungVien.show();
         }
+        
     }
 }
